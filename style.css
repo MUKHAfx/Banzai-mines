@@ -1,0 +1,30 @@
+body {
+  font-family: sans-serif;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: repeat(5, 60px);
+  grid-template-rows: repeat(5, 60px);
+  gap: 5px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.cell {
+  width: 60px;
+  height: 60px;
+  background-color: #333;
+  border: 2px solid #666;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+
+.diamond {
+  color: gold;
+}
